@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+body{
+    background-color: rgba(194, 197, 194, 0.705);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+
+/* AQUI COMEÇA A PAGINA INDEX*/
+
+
+
+.cabecalho_geral{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    
+
+}
+
+.cabecalho_logo{
+    border-radius:50%;
+    margin-top: 3px;
+    height: 90px;
+    width: 90px;
+    border: solid 2px rgb(0, 0, 0);
+
+}
+
+.cabecalho_icone{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.cabecalho_icones{
+    display: flex;
+    gap: 25px;
+    margin-top: 29px;
+}
+
+.cabecalho_nav{
+    display: flex;
+    gap: 32px;
+    margin-top: 29px;
+    font-family: 'Michroma', sans-serif;
+    font-size: 20px;
+}
+
+.cabecalho_link:hover{
+    color: black;
+}
+
+.corpo_imagem{
+    width: 1350px;
+}
+
+
+
+.corpo_imagemd{
+    display: inline-block;
+    padding-left: 42px;
+    margin-top: 50px;
+    width: 350px;
+    height: 400px;
+    border-radius: 30px;
+}
+
+.corpo_video{
+    margin-top: 50px;
+}
+
+.rodape{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+
+h1{
+    color: white;
+    font-size: 45px;
+    font-family: 'Koulen', cursive;
+    padding-top: 50px;
+    padding-left: 350px;
+}
+
+h2{
+    color: white;
+    font-size: 13px;
+    padding-bottom: 0%;
+}
+/* AQUI COMEÇA A PAGINA PRODUTOS*/
+
+.corpo_pag_parte1{
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(44, 41, 41, 0.836);
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.562);
+
+ 
+}
+
+.corpo_pag2_img{
+    width: 190px;
+    height: 200px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.corpo_pag2_butao{
+    margin: auto;
+    width: 100px;
+    height: 30px;
+    border-radius: 40px;
+    background-color: black;
+    color: white;
+    font-family:'Koulen', cursive;
+    border: solid 1px white;
+    cursor: pointer;
+
+}
+
+.corpo_pag2_butao:hover {
+    background-color: red;
+    color: black;
+
+}
+
+.corpo_pag2{
+    margin-left: 130px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+   
+    
+}
+.produtos_pg2{
+    
+    margin-left: 250px;
+    
+
+}
+.paragrafo_pag2{
+    margin: auto;
+    font-family: 'Koulen', cursive;
+    color: rgb(0, 0, 0);
+}
+/* AQUI COMEÇA A PAGINA QUEMSOMOS*/
+
+.corpo_menu_pag3{
+    margin-bottom: 40px;
+}
+/*AQUI COMEÇA PAGINA CONTATOS*/
+
+
+p{
+    font-family:'Koulen', cursive;
+    font-size: 20px;
+}
+
+.formulario_h2{
+    font-family:'Koulen', cursive;
+    font-size: 25px;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.formulario_div{
+    width: 100%;
+    max-width: 500px;
+}
+
+.formulario_inicio{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.formulario_inf{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid white ;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.formulario_butao{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid white ;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.formulario_butao:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+    
